@@ -1,0 +1,32 @@
+<form  action="thanks.php"  method="post">
+    <div>
+      <label  for="nom_de_famille">Nom :</label>
+      <input  type="text"  id="nom_de_famille"  name="user_lastname">
+    </div>
+    <div>
+        <label  for="prenom">Prénom :</label>
+        <input  type="text"  id="prenom"  name="user_firstname">
+    </div>
+    <div>
+      <label  for="courriel">Courriel :</label>
+        <input  type="email"  id="courriel"  name="user_email">
+    </div>
+    <div>
+        <label  for="phone">Numéro de téléphone :</label>
+        <input  type="tel"  id="phone"  name="user_phone">
+    </div>
+    <label for="subject">Sujet :</label>
+    <select id="subject" name="subject">
+        <option value="Les gâteaux">Les gâteaux</option>
+        <option value="La plage">La plage</option>
+        <option value="La fin du monde">La fin du monde</option>
+        <option value="Le thé">Le thé</option>
+    </select>
+    <div>
+      <label  for="message">Message :</label>
+      <textarea  id="message"  name="user_message"></textarea>
+    </div>
+    <div  class="button">
+      <button  type="submit">Envoyer votre message</button>
+    </div>
+  </form>
